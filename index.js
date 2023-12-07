@@ -2,7 +2,7 @@ const express = require('express');
 const app = express();
 const port = 4000;
 const expressHbs = require('express-handlebars');
-const session = require('cookie-session');
+const session = require('express-session');
 const cookieParser = require('cookie-parser');
 
 // Thiet lap thu muc Static
